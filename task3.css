@@ -1,0 +1,52 @@
+/* Basic Styles */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f0f8ff;
+}
+
+h1 {
+  color: #2c3e50;
+  text-align: center;
+}
+
+.quiz-container, .carousel, .api-box {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.carousel img {
+  width: 100%;
+  max-height: 300px;
+  border-radius: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.btn:hover {
+  background-color: #219150;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

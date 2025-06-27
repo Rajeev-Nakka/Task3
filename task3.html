@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced Styling and JavaScript</title>
+  <link rel="stylesheet" href="task3.css">
+</head>
+<body>
+
+  <h1>Advanced Styling and JavaScript Task</h1>
+  
+
+  <!-- Quiz -->
+  <div class="quiz-container">
+    <h2>Simple Quiz</h2>
+    <p>What is the capital of India?</p>
+    <button class="btn" onclick="checkAnswer('Mumbai')">Mumbai</button>
+    <button class="btn" onclick="checkAnswer('Delhi')">Delhi</button>
+    <button class="btn" onclick="checkAnswer('Chennai')">Chennai</button>
+    <p id="quiz-result"></p>
+  </div>
+
+  <!-- Image Carousel -->
+   
+  <div class="carousel">
+    <h2>Image Carousel</h2>
+    <img id="carouselImage" src="https://picsum.photos/id/1018/600/300" alt="carousel">
+    <br>
+    <button class="btn" onclick="prevImage()">Previous</button>
+    <button class="btn" onclick="nextImage()">Next</button>
+  </div>
+
+  <!-- API Fetch -->
+  <div class="api-box">
+    <h2>Random Joke (From API)</h2>
+    <button class="btn" onclick="fetchJoke()">Get Joke</button>
+    <p id="jokeDisplay">Click the button to load a joke.</p>
+  </div>
+
+  <script src="task3.js"></script>
+</body>
+</html>
